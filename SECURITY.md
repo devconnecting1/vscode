@@ -1,14 +1,35 @@
-<!-- BEGIN MICROSOFT SECURITY.MD V1.0.0 BLOCK -->
+# Security Policy
 
-## Security
+## Supported Versions
 
-Microsoft takes the security of our software products and services seriously, which
-includes all source code repositories in our GitHub organizations.
+| Version | Supported          |
+| ------- | ------------------ |
+| latest  | :white_check_mark: |
 
-**Please do not report security vulnerabilities through public GitHub issues.**
+## Reporting a Vulnerability
 
-For security reporting information, locations, contact information, and policies,
-please review the latest guidance for Microsoft repositories at
-[https://aka.ms/SECURITY.md](https://aka.ms/SECURITY.md).
+If you discover a security vulnerability within this project, please send an email to the maintainers. All security vulnerabilities will be promptly addressed.
 
-<!-- END MICROSOFT SECURITY.MD BLOCK -->
+**Please do NOT report security vulnerabilities through public GitHub issues.**
+
+### What to include
+
+- Description of the vulnerability
+- Steps to reproduce
+- Potential impact
+- Suggested fix (if any)
+
+### Response timeline
+
+- **Acknowledgment**: Within 48 hours
+- **Initial assessment**: Within 1 week
+- **Fix or mitigation**: Depends on severity, typically within 2 weeks
+
+## Security Best Practices
+
+This project follows VS Code's security practices:
+
+- All dependencies are scanned via Dependabot
+- Code is analyzed by CodeQL for security issues
+- Secret scanning is enabled to prevent credential leaks
+- OSSF Scorecard monitors supply chain security

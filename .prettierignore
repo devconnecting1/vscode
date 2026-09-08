@@ -1,0 +1,13 @@
+node_modules/
+out/
+out-vscode/
+.build/
+coverage/
+cli/target/
+extensions/*/dist/
+extensions/*/node_modules/
+*.tsbuildinfo
+*.vsix
+product.json
+package-lock.json
+src/vscode-dts/

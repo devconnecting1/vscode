@@ -1,0 +1,29 @@
+name: Prettier
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+permissions:
+  contents: read
+
+jobs:
+  prettier:
+    name: Format Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+
+      - name: Install Prettier
+        run: npm install -g prettier
+
+      - name: Run Prettier
+        run: prettier --check "src/**/*.{ts,js,json,md}" "build/**/*.{ts,js}" "extensions/**/*.{ts,js,json}" --ignore-path .prettierignore
