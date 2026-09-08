@@ -31,7 +31,6 @@ product.overrides.json
 .token
 .vscode-test
 .chat-simulation-data
-vscode-telemetry-docs/
 test-output.json
 test/componentFixtures/.screenshots/*
 dist

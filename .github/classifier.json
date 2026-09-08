@@ -221,7 +221,6 @@
 		"suggest": {"assign": []},
 		"table-widget": {"assign": ["joaomoreno"]},
 		"tasks": {"assign": ["meganrogge"], "accuracy": 0.85},
-		"telemetry": {"assign": ["lramos15"]},
 		"terminal": {"assign": ["meganrogge"]},
 		"terminal-accessibility": {"assign": ["meganrogge"]},
 		"terminal-conpty": {"assign": ["meganrogge"]},
