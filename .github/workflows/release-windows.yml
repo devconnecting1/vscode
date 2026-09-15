@@ -52,7 +52,7 @@ jobs:
         run: npx gulp vscode-win32-x64
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: vscode-win32-x64
           path: .build/win32-x64/**/*.exe
